@@ -26,7 +26,7 @@ class Comments extends Component {
     const {commentsList} = this.state
 
     this.setState({
-      commentsList: commentsList.filter(comment => comment.Id !== commentId),
+      commentsList: commentsList.filter(comment => comment.id !== commentId),
     })
   }
 
